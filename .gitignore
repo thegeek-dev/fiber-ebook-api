@@ -17,6 +17,5 @@
 *.vscode
 *.idea
 
-./news/*
-./archives/*
-./uploads/*
+*.pdf
+*.zip
