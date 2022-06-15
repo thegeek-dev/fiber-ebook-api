@@ -13,7 +13,7 @@ func main() {
 	})
 
 	routes.Router(app)
-	err := app.Listen(":3000")
+	err := app.Listen(":80")
 	if err != nil {
 		log.Fatal(err)
 	}
